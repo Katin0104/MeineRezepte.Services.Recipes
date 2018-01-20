@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  maka.tm.recipesservice:
+    image: maka.tm.recipesservice
+    build:
+      context: .
+      dockerfile: MaKa.TM.RecipesService\Dockerfile
