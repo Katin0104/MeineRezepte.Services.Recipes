@@ -65,7 +65,7 @@ namespace MaKa.TM.RecipesService.Controllers
             );
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetRecipe", new { id = recipe.Entity.ID }, recipe.Entity);
+            return Ok();
         }
     }
 }
